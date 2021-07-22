@@ -109,7 +109,7 @@ export default class Todo extends Component {
             <div className={`todos ${this.state.b && "todos__white"}`}>
                <div className="todos__container1">
                     <div className="container pt-5">
-                        <div className="todo__content w-100">
+                        <div className="todo__content">
                             <Header />
                           <div className="d-flex align-items-center">
                                 <h1 className={`mb-0 fw-bold ${this.state.b && "white__todo"}`}>T O D</h1>

@@ -22,13 +22,9 @@ body {
 }
 .todo__content {
   width: 100%;
+  max-width: 650px;
   margin: 0 auto;
   border-radius: 5px;
-}
-@media screen and (max-width: 1600px) {
-  .todo__content {
-    width: 650px !important;
-  }
 }
 
 .todo__form {
